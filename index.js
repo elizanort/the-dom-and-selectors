@@ -12,6 +12,11 @@ ________________________________________________________________*/
 
 // Your code here
 
+let box2 = document.getElementById("box-two");
+let box9 = document.getElementById("box-nine");
+box2.style.opacity = "1"
+box9.style.opacity = "9"
+
 
 
 
@@ -25,6 +30,9 @@ string containing whatever text you want.
 ________________________________________________________________*/
 
 // Your code here 
+
+let hiddenMessage = document.getElementById("hidden-message");
+hiddenMessage.innerHTML = "Here's the list of UX instructors at Kenzie Academy!";
 
 
 
